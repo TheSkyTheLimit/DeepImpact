@@ -23,4 +23,7 @@ imagecopyresampled($QR, $logo, $QR_width/3, $QR_height/3, 0, 0, $logo_qr_width, 
 }
 imagepng($QR);
 imagedestroy($QR);
+
+echo "Testing to pusu and sync, delete it later.s"
+
 ?>
